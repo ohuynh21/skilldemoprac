@@ -3,7 +3,7 @@ import org.junit.*;
 public class demotester {
     @Test
     public void testPrinter(){
-        assertEquals("test!", demo.printer("test"));
+        assertEquals("test", demo.printer("test"));
     }
     
 }
